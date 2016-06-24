@@ -52,3 +52,7 @@ html, body {
 #home p{
   font-family: 'Open Sans', sans-serif;
 }
+
+th {
+  font-size: 1.5rem;
+}
