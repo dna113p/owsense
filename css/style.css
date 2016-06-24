@@ -1,0 +1,54 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+html, body {
+  font-family: 'Russo One', sans-serif;
+}
+
+.bodytext {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+.content {
+  padding-top: 3rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#dpiVal {
+  font-size: 2rem;
+}
+
+#result {
+  margin-top: 2rem;
+}
+#result td{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#home {
+  padding-top: 3rem;
+}
+#home div{
+  padding: 2rem;
+}
+#home a{
+  color: black;
+}
+#home p{
+  font-family: 'Open Sans', sans-serif;
+}

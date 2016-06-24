@@ -1,0 +1,8 @@
+#targetdp360 {
+  display: flex;
+}
+
+.belowInput {
+  display: flex;
+  justify-content: space-between;
+}
