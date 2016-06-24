@@ -24,9 +24,15 @@ function renderResult(dpiObj) {
   var dp360 = (unit == 'in' ? dpiObj.dp360 : dpiObj.dp360 * 2.54).toFixed(2);
 
   var thead = '<thead><tr><th>Nearest '+ (unit == 'in' ? 'in':'cm') + '/360&deg;</th><th>@ mouse dpi</th><th>@ ow sensitivity</th></tr></thead>';
+<<<<<<< HEAD
   var trow = '<tr><td>' + dp360 + '</td>' +
             '<td>' + dpiObj.dpi + '</td>' +
             '<td>' + dpiObj.sens + '</td></tr>';
+=======
+  var trow = '<tr><th>' + dp360 + '</th>' +
+            '<th>' + dpiObj.dpi + '</th>' +
+            '<th>' + dpiObj.sens + '</th></tr>';
+>>>>>>> master
 
   result.innerHTML = '<table>' + thead + trow + '</table>';
 
