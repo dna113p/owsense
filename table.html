@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>OWS</title>
+
+    <!-- CSS  -->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Russo+One" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="amber darken-3" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="index.html" class="brand-logo">OWS</a>
+        <ul class="right hide-on-med-and-down">
+          <li class="active"><a href="table.html">D/360 Table</a></li>
+          <li><a href="calc.html">D/360 Calculator</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+          <li class="active"><a href="table.html">D/360 Table</a></li>
+          <li><a href="calc.html">D/360 Calculator</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+
+    <div id="calculator" class="container content">
+      <span id="dpiVal"></span>
+      <input type="range" id="slider" min="50" max="5000" step="50" value="800" />
+      <div id="result">
+      </div>
+    </div>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/table.js"></script>
+
+
+  </body>
+</html>
