@@ -74,7 +74,7 @@ function initTargetSlider () {
     inactive.innerHTML = other +  "/360&deg;";
 
     slider.step = (unit == "in" ? 0.25 : 0.5);
-    slider.max = (unit == "in" ? 30 : 75);
+    slider.max = (unit == "in" ? 100 : 254);
   }
 
 }
